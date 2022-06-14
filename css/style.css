@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.nav{
+    background-color: aliceblue;
+    display: flex;
+    box-shadow: 5px 5px 5px rgb(179, 179, 196);
+}
+.bar{
+    float: left;
+    font-size: 25px;
+    margin-right: 40%;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 14 px;
+    margin-top: 18px;
+}
+.list{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin-bottom: 10px;
+}
+.list li{
+    margin: 20px;
+}
+.list li a{
+    padding: 10px 10px;
+    margin: 5px;
+    color: rgb(98, 98, 235);
+    border-radius: 50px;
+}
+.list li a:hover{
+    background-color: rgb(98, 98, 235);
+    color: white;
+    transition: 0.4s;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.eat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.image{
+    width: 620px;
+    height: 620px;
+    padding-right: 30px;
+}
+.btn{
+    background-color:rgb(98, 98, 235) ;
+    border: 2px solid rgb(98, 98, 235);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 27px;
+    font-size: 18px;
+    margin-top: 25px;
+}
+.btn:hover{
+    border: 2px solid rgb(98, 98, 235);
+    background-color: transparent;
+    color: rgb(98, 98, 235);
+    transition: 0.4s;
+}
+.image2{
+    width: 550px;
+    height: 620px;
+    padding-left: 20px;
+}
+.pag{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    width:70%;
+    padding-left: 200px;
+}
+.recp{
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+    margin-bottom: 40px;
+  
+}
+.food-image{
+    width: 250px;
+    margin: 10px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px rgb(179, 179, 196);
+}
+.recp-name{
+    font-size: 25px;
+}
+.food{
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgb(179, 179, 196); 
+}
+.out-div{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(179, 179, 196);
+}
+.social{
+    width: 50%;
+    padding: 20px;
+    margin: 12px;
+    text-align: center;
+}
+.size{
+    font-size: 55px;
+    text-shadow: 5px 5px 5px rgb(179, 179, 196);
+    margin: 0;
+    padding: 0;
+}
+.pg{
+   margin: 0;
+   padding: 0;
+}
+.login{
+    display: flex;
+}
+.image3{
+    width: 40%;
+    margin-left: 160px;
+    padding-bottom: 0px;
+}
+.heading{
+    margin-left: 130px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
+.ph{
+    padding: 7px;
+    margin-left: 120px;
+}
+.name{
+    padding: 12px;
+    padding-right: 180px;
+    border-radius: 26px;
+    border: 1px solid rgb(98, 98, 235) ;
+}
+.btn-m3{
+    background-color:rgb(98, 98, 235) ;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 27px;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.finish{
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+.fip{
+    font-size: 25px;
+    padding-top: 45px;
+    padding-bottom: 14px;
+}
+.bye{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
